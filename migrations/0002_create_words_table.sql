@@ -1,0 +1,6 @@
+-- Migration number: 0002 	 2026-03-15T00:00:00.000Z
+CREATE TABLE IF NOT EXISTS words (
+    word TEXT PRIMARY KEY NOT NULL,
+    count INTEGER NOT NULL DEFAULT 0,
+    tag TEXT
+);
